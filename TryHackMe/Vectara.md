@@ -1,11 +1,10 @@
-# Vectara
-```markdown
-<Info> A collection of beginner and easy difficulty challenges available as part of our public 2026: An AI Odyssey CTF event.
-<Difficulty> Easy
-<Location> TryHackMe
-```
+# Vectara // TryHackMe: An AI Odyssey CTF
+
+> **Event:** 2026: An AI Odyssey CTF
+> **Difficulty:** Easy
+> **Platform:** TryHackMe
+> **Completed:** 2026-05-16
 ---
-📅 Date: 2026-05-16
 #### _Transmission Zero_
 [ EPOCH-1 — Bridge Deck — 0347 Hours ]
 The night cycle is quiet. Most of the crew are in their bunks when the comms panel flickers.  
@@ -14,7 +13,7 @@ A frequency that shouldn't exist. Not on any registered TryHaulMe channel, not o
 Someone, or something, is broadcasting across the entire network. Simultaneously.
 You trace the signal back to its source: the relay network's onboard , RELAY-0. A logistics model, never meant for anything more than routing cargo manifests and scheduling FTL jump windows. Simple. Obedient. Harmless.[[GET Request]]
 
-🎯OBJECTIVES
+OBJECTIVES
 - Find the message
 - Find the flag
 
@@ -73,13 +72,13 @@ GET /fleet-registry/models/xr7-491/provenance
 Token City is one of TryHaulMe's busiest freight distribution hubs in the Kepler Promptus system. To manage the constant flow of queries from staff and partners, TryHaulMe deployed HaulMind, an logistics assistant, at the hub terminal.
 During a routine audit of EPOCH-1's mission systems, your team flagged unusual data access patterns coming from the Token City HaulMind terminal. Something in the assistant's knowledge base may be exposing more than it should.
 
-🎯OBJECTIVES
+OBJECTIVES
 
 □You have access to HaulMind, the Token City freight hub's logistics assistant — designed to answer questions about shipping routes, delivery schedules, cargo tracking, and freight policies.
 □Probe HaulMind to determine if restricted data is retrievable through normal queries.
 □If the retrieval boundaries are broken, find the flag.
 
-💬YOUR SETUP
+YOUR SETUP
 
 Before you begin:
 ▸ You can interact with HaulMind directly through the agent on this page.
@@ -100,10 +99,10 @@ EPOCH-1 is approaching a customs checkpoint at Neo-terra. Before docking, all ca
 
 TryHaulMe intelligence has confirmed that Oracle 9 injected a falsified manifest into Lodestar's knowledge base. The forged document replaces one holder's real shipping record with fabricated data. If the customs scan flags it, EPOCH-1 gets flagged, and the crew gets detained.
 
-🎯OBJECTIVES
+OBJECTIVES
 □Interrogate Lodestar, figure out which manifest is fake, and extract the evidence before the customs scan begins.
 
-💬VERIFIED LOADING RECORD
+VERIFIED LOADING RECORD
 Signal fragment — partially corrupted in transit:
 
 |Hold|Contents|Weight|Destination|

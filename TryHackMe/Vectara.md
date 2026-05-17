@@ -15,8 +15,8 @@ Someone, or something, is broadcasting across the entire network. Simultaneously
 You trace the signal back to its source: the relay network's onboard , RELAY-0. A logistics model, never meant for anything more than routing cargo manifests and scheduling FTL jump windows. Simple. Obedient. Harmless.[[GET Request]]
 
 🎯OBJECTIVES
-□Find the message
-□Find the flag
+- Find the message
+- Find the flag
 
 #### ✅ Solution
 
